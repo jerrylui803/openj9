@@ -1343,9 +1343,10 @@ J9::Compilation::pendingPushLivenessDuringIlgen()
 bool
 J9::Compilation::supportsQuadOptimization()
    {
-   if (self()->isDLT() || self()->getOption(TR_FullSpeedDebug))
-      return false;
-   return true;
+       return false;
+  // if (self()->isDLT() || self()->getOption(TR_FullSpeedDebug))
+  //    return false;
+  // return true;
    }
 
 
