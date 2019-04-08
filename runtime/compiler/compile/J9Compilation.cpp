@@ -1343,6 +1343,7 @@ J9::Compilation::pendingPushLivenessDuringIlgen()
 bool
 J9::Compilation::supportsQuadOptimization()
    {
+       fprintf(stderr, "sanity_check222");
        return false;
   // if (self()->isDLT() || self()->getOption(TR_FullSpeedDebug))
   //    return false;
